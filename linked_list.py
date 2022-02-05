@@ -200,6 +200,7 @@ myLinkedList.addLast(Node("B"))
 myLinkedList.addLast(Node("C"))
 myLinkedList.addLast(Node("D"))
 
+print(myLinkedList)
 print("Node at index 7 = " + str(myLinkedList.node_at_index(7)))
 print("Insert at Middle Index: Cool Beans")
 myLinkedList.insertInMid(Node("Cool Beans"))
